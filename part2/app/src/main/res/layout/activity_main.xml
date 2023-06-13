@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/light"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:text="ilu" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="124dp"
+        android:layout_height="37dp"
+        android:layout_alignBottom="@+id/light"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginBottom="-108dp"
+        android:text="giroX" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="122dp"
+        android:layout_height="36dp"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/textView"
+        android:text="giroY" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="125dp"
+        android:layout_height="37dp"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="-1dp"
+        android:layout_toEndOf="@+id/textView2"
+        android:text="giroZ" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="152dp"
+        android:layout_height="26dp"
+        android:layout_above="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginEnd="-27dp"
+        android:layout_marginBottom="7dp"
+        android:text="@string/subtitle1" />
+
+    <Button
+        android:id="@+id/getGPSBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GPS"
+        android:layout_centerInParent="true"
+        />
+
+</RelativeLayout>
